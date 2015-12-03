@@ -1,0 +1,151 @@
+html, body {height:100%;}
+
+body
+{
+    background: #EEEFFF;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    min-width: 760px;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{color: #034af3;}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    font-family: Georgia;
+}
+
+h1,h2,h3.h4.h5.h6
+{
+    font-size: 1.5em;
+    colot: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.page
+{
+    width: 60%;
+    min-width: 585px;
+    background-color: #ffffff;
+    margin: 20px 20px;
+    border: 1px solid #496077;
+    z-index:4;
+}
+
+.pageMiddle
+{
+    width: 60%;
+    min-width: 585px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border: 1px solid #496077;
+    z-index:4;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    min-height: 200px;
+    width: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+#version
+{
+    color: #333333;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+/*
+TAB MENU ------------------------------------------------------------------------------
+*/
+
+nav
+{
+    background-color: #EB1010;
+    width: 100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    z-index: 5;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #FF0000;
+    border: 1px #000000 solid;
+    color: #ffffff;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #ffffff;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #ffffff;
+    color: #cfdbe6;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
