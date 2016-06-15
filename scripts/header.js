@@ -48,15 +48,15 @@ function loadHeader() {
     navMenuStudentItem.appendChild(StudentLinkMenuList);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "variables.html");
-    StudentStringsMenuListItem.innerHTML = "variables";
+    StudentStringsMenuListItem.innerHTML = "Variables";
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "condition.html");
@@ -64,7 +64,7 @@ function loadHeader() {
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "loops.html");
@@ -72,7 +72,7 @@ function loadHeader() {
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "arrays.html");
@@ -80,7 +80,7 @@ function loadHeader() {
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "functions.html");
@@ -88,7 +88,7 @@ function loadHeader() {
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "objects.html");
@@ -96,7 +96,7 @@ function loadHeader() {
     StudentLinkMenuListItem.appendChild(StudentStringsMenuListItem);
 
     var StudentLinkMenuListItem = document.createElement("li");
-    navMenuStudentItem.appendChild(StudentLinkMenuListItem);
+    StudentLinkMenuList.appendChild(StudentLinkMenuListItem);
 
     var StudentStringsMenuListItem = document.createElement("a");
     StudentStringsMenuListItem.setAttribute("href", "pong.html");
@@ -108,18 +108,18 @@ function loadHeader() {
     navMenuList.appendChild(navMenuStudentItem);
 
     var studentLink = document.createElement("a");
-    StudentLink.setAttribute("href", "sandbox.html");
-    StudentLink.innerHTML = "sandbox";
-    navMenuStudentItem.appendChild(StudentLink);
+    studentLink.setAttribute("href", "sandbox.html");
+    studentLink.innerHTML = "Sandbox";
+    navMenuStudentItem.appendChild(studentLink);
 
     var navMenuStudentItem = document.createElement("li");
     navMenuStudentItem.setAttribute("style", "position: relative; float: left;")
     navMenuList.appendChild(navMenuStudentItem);
 
     var studentLink = document.createElement("a");
-    StudentLink.setAttribute("href", "codingStandards.html");
-    StudentLink.innerHTML = "Coding Standards";
-    navMenuStudentItem.appendChild(StudentLink);
+    studentLink.setAttribute("href", "codingStandards.html");
+    studentLink.innerHTML = "Coding Standards";
+    navMenuStudentItem.appendChild(studentLink);
 
     var clearDiv = document.createElement("div");
     clearDiv.setAttribute("style", "clear:left;");
